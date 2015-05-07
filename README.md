@@ -10,7 +10,7 @@ steps;
 - update rundeck resource.xml file
 
 
-below configuration parameters should be checked before execution
+below configuration parameters should be checked before execution;
 - project_name    = 'product'
 - resource_file   = '/opt/rundeck/projects/'+project_name+'/etc/resources.xml'
 - host_file       = '/opt/ansible/hosts/*'
