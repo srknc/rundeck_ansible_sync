@@ -8,7 +8,7 @@ steps;
 - prepare xml file for rundeck resources.xml file
 - check xml integrity 
 - update rundeck resource.xml file
-- 
+
 
 below configuraition parameters should be checked before execution;
 project_name    = 'product'
