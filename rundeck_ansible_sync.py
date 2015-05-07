@@ -3,7 +3,6 @@ import sys
 import subprocess
 from lxml import etree
 
-working_folder	='/tmp/rundeck_ansible_sync/'
 project_name 	= 'product'
 resource_file 	= '/opt/rundeck/projects/'+project_name+'/etc/resources.xml'
 host_file 	= '/opt/ansible/hosts/*'
