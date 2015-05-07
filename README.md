@@ -1,6 +1,6 @@
 # rundeck_ansible_sync
 
-scripts allows you to sync ansible inventory hosts with rundeck nodes.
+script syncs ansible inventory hosts with rundeck nodes.
 
 steps;
 - list ansible hosts greping the inventory file or files inside folder
@@ -10,9 +10,9 @@ steps;
 - update rundeck resource.xml file
 
 
-below configuraition parameters should be checked before execution
-project_name    = 'product'
-resource_file   = '/opt/rundeck/projects/'+project_name+'/etc/resources.xml'
-host_file       = '/opt/ansible/hosts/*'
-#host_file      = '/opt/ansible/hosts'
-rundeck_node_user = 'root'
+below configuration parameters should be checked before execution
+- project_name    = 'product'
+- resource_file   = '/opt/rundeck/projects/'+project_name+'/etc/resources.xml'
+- host_file       = '/opt/ansible/hosts/*'
+- #host_file      = '/opt/ansible/hosts'
+- rundeck_node_user = 'root'
